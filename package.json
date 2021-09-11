@@ -1,0 +1,18 @@
+{
+  "name": "generator-parcel-sass-boilerplate",
+  "version": "1.0.0",
+  "description": "Generate a scaffolding for a front-end workflow with parcel and sass",
+  "main": "index.js",
+  "dependencies": {
+    "yeoman-generator": "^5.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikokrainer/generator-parcel-sass-boilerplate.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "nikobillion",
+  "license": "ISC"
+}
