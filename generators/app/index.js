@@ -6,10 +6,6 @@ module.exports = class extends Generator {
 
 	writing() {
 		this.fs.copy(
-			this.templatePath('index.html'),
-			this.destinationPath('index.html')
-		);
-		this.fs.copy(
 			this.templatePath('_gitignore'),
 			this.destinationPath('.gitignore')
 		);
@@ -21,7 +17,7 @@ module.exports = class extends Generator {
 			this.templatePath('package-lock.json'),
 			this.destinationPath('package-lock.json')
 		);
-		this.fs.copy(this.templatePath('app'), this.destinationPath('app'));
+		this.fs.copy(this.templatePath('src'), this.destinationPath('src'));
 	}
 
 	end() {
