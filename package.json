@@ -1,6 +1,6 @@
 {
   "name": "generator-parcel-sass-boilerplate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate a scaffolding for a front-end workflow with parcel and sass",
   "main": "index.js",
   "dependencies": {
